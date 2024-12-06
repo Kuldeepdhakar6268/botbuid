@@ -14,10 +14,34 @@
       scroll-behavior: smooth;
     }
   </style>
-  <script type="module" crossorigin src="/assets/index-BCROrDMk.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-RiBazrNq.css">
+  <script type="module" crossorigin src="/assets/index-CtUU0v24.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BWsIzAUt.css">
 </head>
   <body >
     <div style="scroll-behavior: smooth; background-color: white; scrollbar-width: thin;" id="root"></div>
+    
+    <script type="text/javascript">
+      var configuration = {
+        widgetId: "346a7a733135323133363137",
+        tokenAuth: "422143TucaQEUSYW664c3b5dP1",
+        identifier: "<enter mobile number/email here> (optional)",
+        exposeMethods: true,
+        captchaRenderId: '', // id(must be unique) of html element where to render captcha, only works if there is exposedMethod is true,.
+        success: (data) => {
+            // get verified token in response
+            console.log('success response', data);
+        },
+        failure: (error) => {
+            // handle error
+            console.log('failure reason', error);
+        },
+        "OTP": "<OTP>"
+    };
+    </script>
+     <script type="text/javascript" onload="initSendOTP(configuration)" src="https://control.msg91.com/app/assets/otp-provider/otp-provider.js"></script>
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </body>
 </html>
