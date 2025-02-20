@@ -4,5 +4,9 @@ Allow: /
 User-agent: Twitterbot
 Allow: /
 
+
 User-agent: *
-Allow: /
+
+Sitemap: https://enervine.com/sitemap.xml
+
+Disallow:
