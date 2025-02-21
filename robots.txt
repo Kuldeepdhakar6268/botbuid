@@ -9,4 +9,9 @@ User-agent: *
 
 Sitemap: https://enervine.com/sitemap.xml
 
-Disallow:
+User-agent: meta-externalagent
+Allow: / 
+
+Allow: /src/Privacy_policy.jsx
+Allow: /src/Term_conditions.jsx
+Allow: /src/Gdpr.jsx
